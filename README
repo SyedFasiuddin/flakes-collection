@@ -1,0 +1,8 @@
+This repository contains my collection of flakes and their lock files,
+currently no organization for these files are planned and hence they will
+be dumped here in root.
+
+To start a new project with flake, just copy the `.nix` and `.lock` file
+for the type of project and get going, keep `.lock` files in here is my
+choice, it might be unnecessay (only time will tell) and if it proves to
+be then I'll remove all lock files.
