@@ -16,7 +16,7 @@
         };
       in
       {
-        devShells.default = pkgs.mkShell {
+        devShells.default = pkgs.mkShellNoCC {
           buildInputs = [
             pkgs.tectonic
             biberPkgs.biber
