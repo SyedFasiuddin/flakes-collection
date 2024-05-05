@@ -1,5 +1,7 @@
+# A basic flake for using Tectonic.
+
 {
-  description = "My Resume";
+  description = "Tectonic v0.14.0";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
     flake-utils.url = "github:numtide/flake-utils";

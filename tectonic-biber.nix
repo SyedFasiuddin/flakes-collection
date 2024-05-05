@@ -1,5 +1,10 @@
+# A flake that gets the right version of tectonic and biber.
+# tectonic  v0.14.0
+# biber     v2.17
+# biblatex  v3.17
+
 {
-  description = "Build LaTeX using Tectonic";
+  description = "Tectonic and Biber";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
     flake-utils.url = "github:numtide/flake-utils";
